@@ -14,10 +14,10 @@ function App() {
     console.log("목록 데이터 요청...");
 
     //로컬테스트
-    const SERVER_URL = "http://localhost:3000/users/list";
+    // const SERVER_URL = "http://localhost:3000/users/list";
 
     //배포용
-    // const SERVER_URL = "/users/list";
+    const SERVER_URL = "/users/list";
 
     axios.get(SERVER_URL)
     .then((res) =>{
